@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = RestASPNET
-build_property.ProjectDir = C:\dev-c\RestApi-NET5\RestApi-NET5\03_RestASPNET_UsingDiferentVerbs\RestASPNET\RestASPNET\
+build_property.ProjectDir = C:\dev-c\RestApi-NET5\RestApi-NET5\04_RestASPNET_ConnectingToDatabase\RestASPNET\RestASPNET\

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev-c\\RestApi-NET5\\RestApi-NET5\\03_RestASPNET_UsingDiferentVerbs\\RestASPNET\\RestASPNET\\RestASPNET.csproj": {}
+    "C:\\dev-c\\RestApi-NET5\\RestApi-NET5\\04_RestASPNET_ConnectingToDatabase\\RestASPNET\\RestASPNET\\RestASPNET.csproj": {}
   },
   "projects": {
-    "C:\\dev-c\\RestApi-NET5\\RestApi-NET5\\03_RestASPNET_UsingDiferentVerbs\\RestASPNET\\RestASPNET\\RestASPNET.csproj": {
+    "C:\\dev-c\\RestApi-NET5\\RestApi-NET5\\04_RestASPNET_ConnectingToDatabase\\RestASPNET\\RestASPNET\\RestASPNET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev-c\\RestApi-NET5\\RestApi-NET5\\03_RestASPNET_UsingDiferentVerbs\\RestASPNET\\RestASPNET\\RestASPNET.csproj",
+        "projectUniqueName": "C:\\dev-c\\RestApi-NET5\\RestApi-NET5\\04_RestASPNET_ConnectingToDatabase\\RestASPNET\\RestASPNET\\RestASPNET.csproj",
         "projectName": "RestASPNET",
-        "projectPath": "C:\\dev-c\\RestApi-NET5\\RestApi-NET5\\03_RestASPNET_UsingDiferentVerbs\\RestASPNET\\RestASPNET\\RestASPNET.csproj",
+        "projectPath": "C:\\dev-c\\RestApi-NET5\\RestApi-NET5\\04_RestASPNET_ConnectingToDatabase\\RestASPNET\\RestASPNET\\RestASPNET.csproj",
         "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "C:\\dev-c\\RestApi-NET5\\RestApi-NET5\\03_RestASPNET_UsingDiferentVerbs\\RestASPNET\\RestASPNET\\obj\\",
+        "outputPath": "C:\\dev-c\\RestApi-NET5\\RestApi-NET5\\04_RestASPNET_ConnectingToDatabase\\RestASPNET\\RestASPNET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
